@@ -1,0 +1,46 @@
+#loader {
+  display: none;
+}
+
+body {
+  margin: 20px 100px;
+  text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  color: rgb(39 34 166);
+}
+
+#fetchButton {
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgb(39 34 166);
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+  margin: 20px;
+  font-size: 18px;
+  &:hover {
+    background-color: rgb(75, 78, 75);
+  }
+}
+
+label {
+  margin: 15px;
+}
+
+select,
+input {
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: bisque;
+  border-style: none;
+}
+
+#result {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}

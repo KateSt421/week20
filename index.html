@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Wars API</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Star Wars API</h1>
+    <label for="entity">Сущность:</label>
+    <select id="entity">
+      <option value="people">Люди</option>
+      <option value="planets">Планеты</option>
+      <option value="starships">Звёздные корабли</option>
+      <option value="vehicles">Транспортные средства</option>
+      <option value="species">Виды</option>
+    </select>
+    <label for="id">Идентификатор (от 1 до 10):</label>
+    <input type="number" id="id" min="1" max="10" />
+    <button id="fetchButton">Получить данные</button>
+    <div id="loader">Идёт загрузка...</div>
+    <div id="result"></div>
+    <div id="error"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
